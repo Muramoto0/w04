@@ -22,8 +22,8 @@ function main()
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
     
-    var light = new THREE.PointLight(0x88FFFF);
-    light.position.set(3, 1, 5);
+    var light = new THREE.PointLight(0xf4ee42);
+    light.position.set(1, 1, 1);
     scene.add( light );
     
     var material = new THREE.MeshLambertMateria({
