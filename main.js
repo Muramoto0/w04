@@ -21,6 +21,15 @@ function main()
     var material = new THREE.MeshBasicMaterial( { color: 0xffffff } );
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
+    
+    var light = new THREE.PointLight(0x88FFFF);
+    light.position.set(1, 1, 1);
+    scene.add( light );
+    
+    var material = new THREE.MeshLambertMateria({
+        color: 0x45f442
+        });
+    
 
     loop();
 
