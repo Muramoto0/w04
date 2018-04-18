@@ -26,7 +26,7 @@ function main()
     light.position.set(1, 1, 1);
     scene.add( light );
     
-    var material = new THREE.MeshLambertMateria({
+    var material = new THREE.MeshLambertMaterial({
         color: 0x45f442
         });
     scene.add( mesh);
