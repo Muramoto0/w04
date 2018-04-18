@@ -22,7 +22,7 @@ function main()
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
     
-    var light = new THREE.PointLight(0xf4ee42);
+    /*var light = new THREE.PointLight(0xf4ee42);
     light.position.set(1, 1, 1);
     scene.add( light );
     
@@ -30,7 +30,7 @@ function main()
         color: 0x45f442
         });
     scene.add( mesh);
-
+*/
     loop();
 
     function loop()
